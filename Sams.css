@@ -124,8 +124,8 @@ section.home{
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -147,3 +147,50 @@ section.home{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.container-section{
+	display: flex;
+	align-items: center;
+	height: 40rem;
+	width: 200rem;
+	background-color: black;
+	border-radius: 2px solid grey;
+	
+}
+.container marquee{
+	margin-top: 22px;
+	color: #fff;
+	font-size: 1.5rem;
+}
+.container i{
+	margin-top: 39px;
+	font-size: 3.9rem; 
+	color: white;
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+}
+.box-1 img{
+	width: 60rem;
+	height: 30rem;
+	margin-left: 5rem;
+}
+.box-2 img{
+	width: 60rem;
+	height: 30rem;
+	margin-left: 8rem;
+}
+
+.box-1 p{
+	color: white;
+	font-size: 1.6rem;
+	margin-left: 5rem;
+	margin-top: 8px;
+}
+.box-2 p{
+	color: white;
+	font-size: 1.6rem;
+	margin-left: 9rem;
+	margin-top: 8px;
+}
+
