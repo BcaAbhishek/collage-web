@@ -194,3 +194,15 @@ section.home{
 	margin-top: 8px;
 }
 
+.container-2{
+	background-color: rgb(227, 241, 243);
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border:1px solid grey
+}
+.container-2 a{
+	font-size: 3.5rem;
+	font-weight: 500;
+}
