@@ -493,3 +493,56 @@ body {
   .green { background: #778933; }
   .black { background: #000; }
   .yellow { background: #F2B600; }
+
+
+
+  .recruiter-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px 20px;
+	background: #fff;
+	font-family: Arial, sans-serif;
+  }
+  .recruiter-section h2 {
+	letter-spacing: 6px;
+	margin-bottom: 20px;
+  }
+  .carousel-container {
+	position: relative;
+	width: 80%;
+	overflow: hidden;
+  }
+  .carousel-track {
+	display: flex;
+	transition: transform 0.5s ease;
+  }
+  .carousel-item {
+	min-width: 200px;
+	margin: 0 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  .carousel-item img {
+	max-width: 100%;
+	height: 80px;
+	object-fit: contain;
+  }
+  .carousel-button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgba(0, 0, 0, 0.1);
+	border: none;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	outline: none;
+  }
+  .carousel-button:hover {
+	background: rgba(0, 0, 0, 0.3);
+  }
+  .carousel-button.prev { left: -15px; }
+  .carousel-button.next { right: -15px; }
