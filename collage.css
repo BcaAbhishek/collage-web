@@ -52,7 +52,7 @@ body {
 }
 
 .navbar a {
-	margin: 0 1rem;
+	margin:1rem;
 	font-size: 1.0rem;
 	color: black;
 
@@ -203,47 +203,6 @@ body {
 }
 
 
-/* .home{
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-	background:url(images/pic2.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-.home .content{
-	max-width: 60rem;
-}
-
-.home .content h3{
-	font-size: 6rem;
-	text-transform: uppercase;
-	color: #fff;
-}
-
-.home .content p{
-	font-size: 2rem;
-	font-weight: lighter;
-	line-height: 1.8;
-	padding:1rem 0;
-	color:#eee;
-}
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -255,7 +214,6 @@ body {
 	display: flex;
 	align-items: center;
 	height: 25rem;
-	width: 84.2rem;
 	background-color: black;
 	border-radius: 2px solid grey;
 	animation: fadeIn 1.5s ease-out forwards;
@@ -325,7 +283,7 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	height: 8rem;
-	width: 84.4rem;
+
 	background-color: #fff;
 }
 
@@ -404,7 +362,7 @@ body {
 .container-3 {
 	background-color: rgb(238, 237, 237);
 	height: 35rem;
-	width: 84.4rem;
+	
 	display: flex;
 }
 
@@ -513,7 +471,7 @@ body {
 }
 
 .container-box {
-	width: 84.2rem;
+	
 	height: 20rem;
 	display: flex;
 }
