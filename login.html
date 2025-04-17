@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Login Page</title>
+	<link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <img src="images/SaiT-scaled-1.jpg" alt="College Logo">
+        <h1>SAMS College Student Portal</h1>
+    
+        <input type="text" id="regId" placeholder="Enter your Registration ID">
+        <input type="password" id="password" placeholder="Enter your Password">
+    
+        <button class="login-btn" onclick="validateLogin()">Login</button>
+        <button class="reset-btn" onclick="resetForm()">Reset</button>
+        <button class="forgot-btn" onclick="forgotPassword()">Forgot Password?</button>
+    
+        <div class="error-message" id="error-message"></div>
+        <div class="success-message" id="success-message"></div>
+    </div>
+    
+
+
+<script src="login.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-image: url('images/pic1 (2).jpg');
+	background-size: cover;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	overflow: hidden;
+	animation: fadeIn 1.5s ease-out forwards;
+}
+@keyframes fadeIn {
+	0% { opacity: 0; transform: scale(0.9); }
+	100% { opacity: 1; transform: scale(1); }
+}
+.login-container {
+	background: white;
+	padding: 30px 40px;
+	border-radius: 12px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+	width: 350px;
+	text-align: center;
+	opacity: 0;
+	transform: translateY(50px);
+	animation: waveIn 1.2s ease-out forwards;
+}
+
+@keyframes waveIn {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	50% {
+		opacity: 0.5;
+		transform: translateY(-10px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.login-container img {
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+.login-container h1 {
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.login-container input {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 14px;
+}
+
+.login-container button {
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 6px;
+	font-size: 15px;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.login-container .login-btn {
+	background: #004080;
+	color: white;
+}
+
+.login-container .login-btn:hover {
+	background: #002a5c;
+}
+
+.login-container .reset-btn {
+	background: #777;
+	color: white;
+}
+
+.login-container .reset-btn:hover {
+	background: #555;
+}
+
+.login-container .forgot-btn {
+	background: #2e8b57;
+	color: white;
+}
+
+.login-container .forgot-btn:hover {
+	background: #1f6140;
+}
+
+.error-message {
+	margin-top: 12px;
+	font-size: 13px;
+	color: red;
+}
+
+.success-message {
+	margin-top: 12px;
+	font-size: 15px;
+	color: green;
+	animation: bounce 1s ease-out;
+}
+
+@keyframes bounce {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.2);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
