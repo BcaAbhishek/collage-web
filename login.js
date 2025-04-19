@@ -18,7 +18,7 @@ function validateLogin() {
 	}
 
 	if (user) {
-		window.location.href = "collage.html";  
+		window.location.href = "all/collage.html";  
 	} else {
 		error.style.color = "red";
 		error.textContent = "Wrong Registration ID or Password.";
